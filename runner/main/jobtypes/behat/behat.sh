@@ -87,6 +87,8 @@ function behat_to_summary() {
     echo "== MOBILE_VERSION: ${MOBILE_VERSION}"
     echo "== MOBILE_APP_PORT: ${MOBILE_APP_PORT}"
     echo "== PLUGINSTOINSTALL: ${PLUGINSTOINSTALL}"
+    echo "== SELVERSION: ${SELVERSION}"
+    echo "== USE_SELVERSION: ${USE_SELVERSION}"
 }
 
 # This job type defines the following env variables
